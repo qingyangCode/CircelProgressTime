@@ -1,4 +1,3 @@
-hellow-word
-===========
+CircelProgressForTime
 
-just my first application
+用于时间倒计时显示
