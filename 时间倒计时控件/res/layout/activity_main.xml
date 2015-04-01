@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.yq.circlepress"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+     >
+
+    <com.yq.circlepress.RoundProgressBar
+        android:id="@+id/iv_progress"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_centerInParent="true"
+        android_custom:roundColor="#fe7086"
+        android_custom:roundProgressColor="#fe7086"
+        android_custom:roundProgressWidth="10dip"
+        android_custom:roundWidth="3dip"
+        android_custom:textSize="30sp"
+        android_custom:textColor="#fe7086" />
+
+</RelativeLayout>
